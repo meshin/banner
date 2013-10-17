@@ -98,8 +98,9 @@ if (nova_flsh) {
         if (!document.getElementById) return;
         var h = document.getElementById('nova_floater_wraper');
         var d = document.getElementById('nova_floater');
-        h.removeChild(d);
+        //h.removeChild(d);
         if (h) h.style.visibility = 'hidden';
+        if (d) d.style.visibility = 'hidden';
     }
 
     function nova_bgbutton() {
