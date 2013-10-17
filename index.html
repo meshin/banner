@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Testis</title>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<style>
+	body{
+		width:100%;
+		height: 100%;
+		background-color: #c4c4c4;
+		position: relative;
+	}
+	</style>
+</head>
+<body>
+<object width="300" height="600" data="Diesel_unisex_300x600_1_01.swf" type="application/x-shockwave-flash" wmode="opaque">
+	<param value="always" name="allowScriptAccess">
+	<param value="file.swf" name="movie">
+	<param value="#ffffff" name="bgcolor">
+	<param value="opaque" name="wmode">
+</object>
+<script type="text/javascript"> 
+function banner2(){
+  $('#nova_floater_wraper, #nova_floater').css('visibility','visible');
+  setTimeout(
+  function() 
+  {
+    $('#nova_floater_wraper, #nova_floater').css('visibility','hidden');
+  }, 20000);
+};
+		nova_video = ''; //location of video
+		nova_duration = 0; // 0 if doesn't expire
+		//floater_parameters.js v0.13
+		nova_fbf = '60867447.swf'; // location of the swf  file
+		nova_jsfile = 'takeover.js'; //location of the main banner code
+		nova_bg = '60607344.png'; // location od background image, none = no background
+		nova_wa = ''; // location of wrap-around image, none = no wrap-around
+		//flash params
+		nova_fv = 9; // flash version needed
+		nova_fbw = 1024; // width of the swf
+		nova_fbh = 616; // height of the swf
+		nova_fbt = 1; // flash banner transparency: 1 = true, 0 = no trans
+		// positioning
+		nova_left = 1; // left position; 0 = left; 1 = center; 2 = right; >2 = from left, <0 = from right
+		nova_top = 1; // top position; 0 = top; 1 = middle; 2 = bottom; >2 = from top, <0 = from bottom
+		// extra options
+		nova_delay = 1; // opening delay in seconds
+		nova_bgclose = 1; // 1 closes on background click 
+		nova_zindex = 9999; // z-index of ad bottom layer
+		// link
+		nova_clickparam = "clickTAG"; // swf click action
+		nova_ct = "_ADCLICK_"; // ad-system click
+		var nova_js = 'sr'+'c="'+nova_jsfile;
+		document.write('<scr'+'ipt type="text/javascript" ' + nova_js + '"></scr'+'ipt>');
+</script>
+	
+</body>
